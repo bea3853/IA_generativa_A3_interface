@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+h1{
+    font-size: 60px;
+}
+
+.sidebar{
+    width: 60px;
+    background-color: #dd203c;
+
+}
+
+.chat{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.pergunta{
+    display: flex;
+    margin: 15vh 0;
+}
+
+input{
+    width: 800px;
+    border: none;
+    border-bottom: solid 1px #272727;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0;
+}
+button{
+    background-color: #dd203c;
+    padding: 20px 25px;
+    border-radius: 50%;
+    border:none;
+    color: white;
+    cursor: pointer;
+}
+
+/*desafio -  implementar  darkmode */
+
+
+body {
+    transition: background-color 0.5s ease-in-out;
+    background-color: #fff;
+  }
+
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .dark-mode-toggle:hover {
+    background-color: #f2f2f2;
+  }
+
+  .dark-mode-toggle i {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .dark-mode-toggle.active i {
+    transform: rotate(180deg);
+  }
+
+  .dark {
+    background-color: #222;
+    color: #fff;
+  }
+
+.pergunta input{
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+
+}
+
+
+/* DARK MODE 2 */
+
+/*body {
+    transition: all 0.5s ease-in-out;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+.dark-mode-button {
+    background-color: #fff;
+    color: #121212;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dark-mode-button:hover {
+    background-color: #ccc;
+}
+
+button .dark-mode-button{
+    border-radius: none;
+}*/
+
