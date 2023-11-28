@@ -1,1 +1,1 @@
-# aula3_IA_generativa
+# IA_generativa_A3_INTERFACE
